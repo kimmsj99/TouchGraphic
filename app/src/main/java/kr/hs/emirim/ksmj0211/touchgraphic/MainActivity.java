@@ -15,6 +15,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(new DrawShape(getApplicationContext()));
     }
+    public void drawShape(View v) {
+
+    }
     class DrawShape extends View{
         DrawShape(Context context){
             super(context);
